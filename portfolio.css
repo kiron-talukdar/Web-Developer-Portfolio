@@ -101,9 +101,20 @@ nav  a {
 
 /* main section start */
 
+main{
+    max-width: 1300px;
+    margin:0 auto;
+}
 .about{
     padding:130px;
     border-radius: 3px;
     background: #fff8f3;
     margin: 130px 0px ;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
